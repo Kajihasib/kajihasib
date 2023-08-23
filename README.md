@@ -26,4 +26,4 @@ Hasib is a Senior Front-End Engineer based in Khulna, Bangladesh. With over 6+ Y
 │   ├── Git, Slack, Jira, Microsoft Teams  
 └──
 
-  Thanks for visiting my profile ❤️
+Thanks for visiting my profile ❤️
