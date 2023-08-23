@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Hasib is a Senior Front-End Engineer based in Khulna, Bangladesh. With over 6+ Years of experience in this field, He has also served as a team lead, demonstrating his ability to lead and manage teams effectively. He specializes in creating user-friendly and responsive web applications, utilizing his expertise in various programming languages and frameworks such as HTML5, CSS3, JavaScript, Typescript React, NextJS and NodeJs.
+Hasib is a Senior Front-End Engineer based in Khulna, Bangladesh. With over 6+ Years of experience in this field, He has also served as a team lead, demonstrating his ability to lead and manage teams effectively. He specializes in creating user-friendly and responsive web applications, utilizing his expertise in various programming languages and frameworks such as HTML5, CSS3, JavaScript, Typescript, React, NextJS and NodeJs.
 
 ### Technical Skills:
 
