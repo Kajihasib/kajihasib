@@ -1,16 +1,27 @@
 ### Hi there 👋
 
 <!--
-**Kajihasib/kajihasib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Hasib is a Senior Front-End Engineer based in Khulna, Bangladesh. With over 6+ Years of experience in this field, He has also served as a team lead, demonstrating his ability to lead and manage teams effectively. He specializes in creating user-friendly and responsive web applications, utilizing his expertise in various programming languages and frameworks such as HTML5, CSS3, JavaScript, Typescript React, NextJS and NodeJs.
 
-Here are some ideas to get you started:
+### Technical Skills:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+├── Languages
+│   ├── JavaScript/TypeScript
+├── Front-End
+│   ├── HTML5, CSS3 (SASS/SCSS), ReactJS, NextJS, ReduxJS/ReduxToolkit, ReactQuery, React Router Dom, Tailwindcss
+│   ├── Styled Components & Emotion, MUI and various other component libraries.
+├── i18n
+│   ├── i18next,react-i18next,
+├── Testing
+│   ├── Jest, Mocha, React Testing Library
+├── Back-End
+│   ├── NodeJS (ExpressJS)
+├── Database
+│   ├── MySQL
+│   ├── MongoDB (Mongoose)
+├── DevOps
+│   ├── Docker, Vercel
+├── Tools
+│   ├── Webpack
+│   ├── Git, Slack, Jira, Trello Microsoft Teams
+└──
