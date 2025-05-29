@@ -6673,7 +6673,7 @@ Primary style
   font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   z-index: 1;
   transition: all 0.4s ease-in-out;
@@ -6683,6 +6683,13 @@ Primary style
   text-decoration: none;
   font-family: var(--font-secondary);
   text-transform: capitalize;
+  align-items: center;
+  border: 2px solid transparent;
+}
+.tmp-btn:hover {
+  background: var(--color-primary-hover);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 /*===================================
   Latest Portfolio Tabs Area
