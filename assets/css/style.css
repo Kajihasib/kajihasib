@@ -6766,14 +6766,40 @@ Primary style
   .small-img:last-child {
   margin-top: 30px;
 }
-.tmp-round-action-btn{
+.tmp-round-action-btn {
   min-height: 40px;
   min-width: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #FF014F;
+  background-color: #ff014f;
   color: #fff;
   border: none;
+}
+.header-top-area {
+  padding: 15px 0;
+}
+.header-top-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-top-wrap li {
+  margin: 0;
+}
+.header-top-wrap li a {
+  color: var(--color-heading);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
 }
