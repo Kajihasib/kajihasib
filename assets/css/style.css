@@ -915,110 +915,6 @@ input[type="submit"] {
   overflow-y: auto;
 }
 
-/*-------------------------
-    Offcanvas Menu Style  
----------------------------*/
-.sidebar-area {
-  width: 400px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  background: var(--color-gray-2);
-  z-index: 99999;
-  height: 100%;
-  transform: translate3d(100%, 0, 0);
-  overflow: hidden;
-  overscroll-behavior: contain;
-  transition: transform 0.85s cubic-bezier(0.23, 1, 0.32, 1),
-    opacity 0.6s step-end;
-}
-.sidebar-area .inner {
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  overflow-y: auto;
-}
-.sidebar-area .inner .top-area {
-  padding: 16px 20px;
-  background: #151515;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.sidebar-area .inner .image-area-feature img {
-  border-radius: 0;
-}
-.sidebar-area .inner .content-wrapper {
-  padding: 30px;
-}
-.sidebar-area .inner .content-wrapper .title {
-  color: var(--color-heading);
-  line-height: 1.4;
-}
-.sidebar-area .inner .content-wrapper .disc {
-  font-family: var(--font-secondary);
-  color: var(--color-gray);
-  font-size: 16px;
-  font-weight: 400;
-}
-.sidebar-area.tmp_side_bar_open {
-  transform: translate3d(0, 0, 0);
-  transition: transform 0.85s cubic-bezier(0.23, 1, 0.32, 1),
-    opacity 0.6s step-start;
-}
-.sidebar-area .short-contact-area .single-contact {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.sidebar-area .short-contact-area .single-contact i {
-  height: 45px;
-  width: 45px;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  color: var(--color-heading);
-  justify-content: center;
-  font-size: 18px;
-  border-radius: 5px;
-  border: 1px solid var(--color-border);
-}
-.sidebar-area .short-contact-area .single-contact .information span {
-  display: block;
-  color: var(--color-primary);
-  font-family: var(--font-primary) !important;
-  text-transform: uppercase;
-  font-size: 15px;
-  margin-bottom: 0;
-  font-weight: 600;
-}
-.sidebar-area .short-contact-area .single-contact .information .number {
-  color: var(--color-heading);
-  font-family: var(--font-secondary);
-}
-
-.overlay_close_side_menu {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1091;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
-  cursor: url(../images/icons/cursor-x.webp), pointer;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(15px);
-}
-
-.sidemenu-active .overlay_close_side_menu {
-  opacity: 1;
-  visibility: visible;
-}
-
 /*----Elements Style // @import'elements/button'; ----*/
 /* Zoom in image on scroll */
 .animate--zoom-in {
@@ -1418,13 +1314,9 @@ input[type="submit"] {
   }
 }
 
-/*========================
-  RPP Banner One Area
-  ========================*/
-
 .banner-one-area {
   padding-top: 26px;
-  background-image: url("../images/banner/hero.jpg");
+  background-image: url("../images/hero.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
