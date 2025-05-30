@@ -3486,3 +3486,17 @@ Primary style
   column-gap: 10px;
   align-items: center;
 }
+.whatsapp-float {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
