@@ -559,11 +559,12 @@ input[type="submit"] {
 /*-------------------
     Header Styles  
 ---------------------*/
-.logo img {
-  max-width: 120px;
-}
-.logo img.logo-white {
-  display: none;
+.logo a {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: var(--s-bold);
+  letter-spacing: 2px;
 }
 
 .header-one {
@@ -810,6 +811,9 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
   border-radius: 100%;
+}
+.mainmenu {
+  margin-top: 0;
 }
 .mainmenu li a {
   padding: 5px 15px;
