@@ -2322,10 +2322,17 @@ Section Head
   font-family: var(--font-secondary);
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 24px;
   margin-top: 4px;
 }
-
+@media (max-width: 767px) {
+  .counter-card .counter-para {
+    min-height: 48px;
+  }
+}
+.mt--40 {
+  margin-top: 40px;
+}
 /*===============================
   Education Experience Card
   ===============================*/
@@ -2483,6 +2490,12 @@ Section Head
 }
 .experiences-wrapper .experiences-wrap-right-content {
   overflow: hidden;
+}
+@media (max-width: 767px) {
+  .experiences-wrapper .experiences-wrap-right-content {
+    width: 100% !important;
+    height: unset !important;
+  }
 }
 .experiences-wrapper .experiences-wrap-right-content img {
   width: 100%;
@@ -2650,11 +2663,7 @@ Section Head
     margin-bottom: 16px;
   }
 }
-@media only screen and (max-width: 767px) {
-  .service-card-v1 .service-card-icon {
-    margin-bottom: 16px;
-  }
-}
+
 .service-card-v1 .service-title {
   color: var(--color-heading);
   font-family: var(--font-primary);
@@ -2663,6 +2672,14 @@ Section Head
   line-height: 34px;
   text-align: center;
   margin-bottom: 9px;
+}
+@media only screen and (max-width: 767px) {
+  .service-card-v1 .service-card-icon {
+    margin-bottom: 16px;
+  }
+  .service-card-v1 .service-title {
+    font-size: 20px;
+  }
 }
 .service-card-v1 .service-para {
   color: var(--color-gray);
@@ -2728,6 +2745,12 @@ Section Head
 @media (min-width: 1200px) {
   .service-card-user-image {
     margin-left: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .service-card-user-image {
+    width: 100% !important;
+    height: unset !important;
   }
 }
 
@@ -3364,6 +3387,11 @@ Primary style
   list-style: none;
   margin: 0;
   padding: 0;
+}
+@media (max-width: 767px) {
+  .header-top-wrap {
+    justify-content: center;
+  }
 }
 .header-top-wrap li {
   margin: 0;
