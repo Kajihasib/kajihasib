@@ -24,8 +24,14 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body>
-    <!-- tpm-header-area start -->
+  <body
+    class="demo-fitness-instructor"
+    class="spybody"
+    data-spy="scroll"
+    data-bs-target=".navbar-example2"
+    data-offset="150"
+  >
+    <!---header-area start -->
     <div class="header-top-area">
       <div class="container">
         <ul class="header-top-wrap">
@@ -48,7 +54,7 @@
       </div>
     </div>
     <header
-      class="tmp-header-area-start header-one header--sticky header--transparent"
+      class="header-area-start header-one header--sticky header--transparent"
     >
       <div class="container">
         <div class="header-content">
@@ -66,29 +72,30 @@
               />
             </a>
           </div>
-          <nav class="tmp-mainmenu-nav d-none d-xl-block">
-            <ul class="tmp-mainmenu">
-              <li>
-                <a href="#">Home </a>
+          <nav class="navbar-example2 onepagenav d-none d-xl-flex">
+            <ul class="mainmenu nav nav-pills">
+              <li class="current">
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#"> Services </a>
+                <a href="#experience">Experience</a>
+              </li>
+
+              <li>
+                <a href="#protfolio">Protfolio</a>
               </li>
               <li>
-                <a href="#"> Blog </a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#"> Project </a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
-          <div class="tmp-header-right">
+          <div class="header-right">
             <div class="social-share-wrapper d-none d-md-block">
               <div class="social-link">
                 <a
@@ -118,8 +125,8 @@
               </div>
             </div>
             <div class="actions-area">
-              <div class="tmp-side-collups-area d-block d-xl-none">
-                <button class="tmp-menu-bars humberger_menu_active">
+              <div class="side-collups-area d-block d-xl-none">
+                <button class="menu-bars humberger_menu_active">
                   <i class="fa-regular fa-bars-staggered"></i>
                 </button>
               </div>
@@ -128,10 +135,10 @@
         </div>
       </div>
     </header>
-    <!-- tpm-header-area end -->
+    <!---header-area end -->
 
     <div class="d-block d-xl-none">
-      <div class="tmp-popup-mobile-menu">
+      <div class="popup-mobile-menu">
         <div class="inner">
           <div class="header-top">
             <div class="logo">
@@ -149,12 +156,12 @@
               </a>
             </div>
             <div class="close-menu">
-              <button class="close-button tmp-round-action-btn">
+              <button class="close-button round-action-btn">
                 <i class="fa-sharp fa-light fa-xmark"></i>
               </button>
             </div>
           </div>
-          <ul class="tmp-mainmenu">
+          <ul class="mainmenu">
             <li>
               <a href="#">Home </a>
             </li>
@@ -210,15 +217,15 @@
       </div>
     </div>
 
-    <!-- tmp banner area start -->
-    <div class="tmp-banner-one-area">
+    <!-- hero area start -->
+    <div class="banner-one-area" id="home">
       <div class="container">
         <div class="banner-one-main-wrapper">
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
               <div class="banner-right-content">
                 <img
-                  class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                  class="scroll-trigger zoom-in animation-order-1"
                   src="assets/images/banner/banner-user-image-one.png"
                   alt="banner-img"
                 />
@@ -229,12 +236,12 @@
             <div class="col-lg-6 order-lg-1">
               <div class="inner">
                 <span
-                  class="sub-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="sub-title scroll-trigger fade-in animation-order-1"
                 >
                   Hello
                 </span>
                 <h1
-                  class="title tmp-scroll-trigger tmp-fade-in animation-order-2 mt--5"
+                  class="title scroll-trigger fade-in animation-order-2 mt--5"
                 >
                   I’m MD Hasibur Rahman a <br />
                   <span class="header-caption">
@@ -261,9 +268,7 @@
                     </span>
                   </span>
                 </h1>
-                <p
-                  class="disc tmp-scroll-trigger tmp-fade-in animation-order-3"
-                >
+                <p class="disc scroll-trigger fade-in animation-order-3">
                   A personal portfolio showcases my expertise as a Front-End
                   Developer, featuring modern web applications, interactive UI
                   designs, and performance-optimized code. It reflects my
@@ -271,9 +276,9 @@
                   responsive, user-focused digital experiences.
                 </p>
                 <div
-                  class="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4"
+                  class="button-area-banner-one scroll-trigger fade-in animation-order-4"
                 >
-                  <a class="tmp-btn hover-icon-reverse radius-round" href="#">
+                  <a class="btn hover-icon-reverse radius-round" href="#">
                     <span class="icon-reverse-wrapper">
                       <span class="btn-text">Download CV</span>
                     </span>
@@ -285,26 +290,26 @@
         </div>
       </div>
     </div>
-    <!-- tmp banner area end -->
+    <!-- hero area end -->
 
-    <!-- Tpm Service Area Start -->
-    <section class="service-area tmp-section-gap">
+    <!-- Service Area Start -->
+    <section class="service-area section-gap" id="about">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div
-              class="service-card-v1 tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation"
+              class="service-card-v1 scroll-trigger fade-in animation-order-1 link-animation"
             >
               <div class="service-card-icon">
                 <img src="assets/images/logo/html.png" alt="HTML/CSS/SCSS" />
               </div>
               <h4 class="service-title">HTML/CSS/SCSS</h4>
-              <p class="service-para">120+ Projects</p>
+              <p class="service-para">50+ Projects</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div
-              class="service-card-v1 tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-link-animation"
+              class="service-card-v1 scroll-trigger fade-in animation-order-2 link-animation"
             >
               <div class="service-card-icon">
                 <svg
@@ -328,7 +333,7 @@
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div
-              class="service-card-v1 tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation"
+              class="service-card-v1 scroll-trigger fade-in animation-order-3 link-animation"
             >
               <div class="service-card-icon">
                 <svg
@@ -379,7 +384,7 @@
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div
-              class="service-card-v1 tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-link-animation"
+              class="service-card-v1 scroll-trigger fade-in animation-order-4 link-animation"
             >
               <div class="service-card-icon">
                 <img src="assets/images/logo/python-logo.png" alt="Python" />
@@ -391,15 +396,15 @@
         </div>
       </div>
     </section>
-    <!-- Tpm Service Area End -->
+    <!-- Service Area End -->
 
-    <!-- Tpm Counter Area Start -->
+    <!-- Counter Area Start -->
     <section class="counter-area">
       <div class="container">
         <div class="row g-5">
           <div class="col-12 col-lg-6 col-xl-6 col-xxl-6">
             <div
-              class="year-of-expariance-wrapper bg-blur-style-one tmp-scroll-trigger tmp-fade-in animation-order-1"
+              class="year-of-expariance-wrapper bg-blur-style-one scroll-trigger fade-in animation-order-1"
             >
               <div class="year-expariance-wrap">
                 <h2 class="counter year-number">
@@ -422,7 +427,7 @@
               <div class="row g-5 align-items-center">
                 <div class="col-lg-6 col-sm-6 col-12">
                   <div
-                    class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1"
+                    class="counter-card onhover scroll-trigger fade-in animation-order-1"
                   >
                     <h3 class="counter counter-title">
                       <span class="odometer" data-count="50">00</span>+
@@ -432,7 +437,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-12">
                   <div
-                    class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2"
+                    class="counter-card onhover scroll-trigger fade-in animation-order-2"
                   >
                     <h3 class="counter counter-title">
                       <span class="odometer" data-count="150">00</span>+
@@ -442,7 +447,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-12">
                   <div
-                    class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3"
+                    class="counter-card onhover scroll-trigger fade-in animation-order-3"
                   >
                     <h3 class="counter counter-title">
                       <span class="odometer" data-count="100">00</span>+
@@ -452,7 +457,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-12">
                   <div
-                    class="counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4"
+                    class="counter-card onhover scroll-trigger fade-in animation-order-4"
                   >
                     <h3 class="counter counter-title">
                       <span class="odometer" data-count="200">00</span>+
@@ -466,17 +471,18 @@
         </div>
       </div>
     </section>
-    <!-- Tpm Counter Area End -->
+    <!-- Counter Area End -->
 
-    <!-- tmp skill area start -->
-    <div class="tmp-skill-area tmp-section-gapTop">
+    <!-- 
+     skill area start -->
+    <div class="skill-area section-gapTop">
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 col-12">
             <div class="progress-wrapper">
               <div class="content">
                 <h2
-                  class="custom-title mb--30 tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="custom-title mb--30 scroll-trigger fade-in animation-order-1"
                 >
                   Frontend Skill
                   <span>
@@ -695,7 +701,7 @@
             <div class="progress-wrapper">
               <div class="content">
                 <h2
-                  class="custom-title mb--30 tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="custom-title mb--30 scroll-trigger fade-in animation-order-1"
                 >
                   Backend Skill
                   <span>
@@ -759,6 +765,31 @@
 
                 <!-- Start Single Progress Charts -->
                 <div class="progress-charts">
+                  <h6 class="heading heading-h6">PHP/Laravel</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-wow-duration="0.7s"
+                      data-wow-delay=".5s"
+                      role="progressbar"
+                      style="
+                        width: 30%;
+                        visibility: visible;
+                        animation-duration: 0.7s;
+                        animation-delay: 0.5s;
+                        animation-name: fadeInLeft;
+                      "
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <span class="percent-label">30%</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Progress Charts -->
+                <!-- Start Single Progress Charts -->
+                <div class="progress-charts">
                   <h6 class="heading heading-h6">Django</h6>
                   <div class="progress">
                     <div
@@ -782,7 +813,6 @@
                   </div>
                 </div>
                 <!-- End Single Progress Charts -->
-
                 <!-- Start Single Progress Charts -->
                 <div class="progress-charts">
                   <h6 class="heading heading-h6">Mysql</h6>
@@ -858,31 +888,57 @@
                   </div>
                 </div>
                 <!-- End Single Progress Charts -->
+                <!-- Start Single Progress Charts -->
+                <div class="progress-charts">
+                  <h6 class="heading heading-h6">Trello/Jira</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-wow-duration="0.8s"
+                      data-wow-delay=".6s"
+                      role="progressbar"
+                      style="
+                        width: 90%;
+                        visibility: visible;
+                        animation-duration: 0.8s;
+                        animation-delay: 0.6s;
+                        animation-name: fadeInLeft;
+                      "
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <span class="percent-label">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Progress Charts -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- tmp skill area end -->
+    <!-- 
+     skill area end -->
 
-    <!-- Tpm Latest Service Area Start -->
-    <section class="latest-service-area tmp-section-gapTop">
+    <!-- Latest Service Area Start -->
+    <section class="latest-service-area section-gapTop">
       <div class="container">
         <div class="section-head mb--50">
           <div
-            class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+            class="section-sub-title center-title scroll-trigger fade-in animation-order-1"
           >
             <span class="subtitle">Latest Service</span>
           </div>
           <h2
-            class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"
+            class="title split-collab scroll-trigger fade-in animation-order-2"
           >
             Building Engaging <br />
             Frontend Experiences
           </h2>
           <p
-            class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"
+            class="description section-sm scroll-trigger fade-in animation-order-3"
           >
             I specialize in creating modern, responsive, and accessible user
             interfaces using cutting-edge frontend technologies like React,
@@ -892,7 +948,7 @@
         <div class="row">
           <div class="col-lg-6">
             <div
-              class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1"
+              class="service-card-v2 onhover scroll-trigger fade-in animation-order-1"
             >
               <h2 class="service-card-num">
                 <span>01.</span>Responsive Web Design
@@ -904,7 +960,7 @@
               </p>
             </div>
             <div
-              class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2"
+              class="service-card-v2 onhover scroll-trigger fade-in animation-order-2"
             >
               <h2 class="service-card-num">
                 <span>02.</span>Modern Frontend Architecture
@@ -916,7 +972,7 @@
               </p>
             </div>
             <div
-              class="service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3"
+              class="service-card-v2 onhover scroll-trigger fade-in animation-order-3"
             >
               <h2 class="service-card-num">
                 <span>03.</span>UI/UX Implementation
@@ -939,25 +995,25 @@
       </div>
     </section>
 
-    <!-- Tpm Latest Service Area End -->
+    <!-- Latest Service Area End -->
 
-    <!-- Tpm Education Experience Area Start -->
-    <section class="education-experience tmp-section-gapTop">
+    <!-- Education Experience Area Start -->
+    <section class="education-experience section-gapTop" id="experience">
       <div class="container">
         <div class="section-head mb--50">
           <div
-            class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+            class="section-sub-title center-title scroll-trigger fade-in animation-order-1"
           >
             <span class="subtitle">Education & Experience</span>
           </div>
           <h2
-            class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"
+            class="title split-collab scroll-trigger fade-in animation-order-2"
           >
             Empowering Creativity Through <br />
             Code & Design
           </h2>
           <p
-            class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"
+            class="description section-sm scroll-trigger fade-in animation-order-3"
           >
             With a strong foundation in computer science and over 6 years of
             hands-on experience in frontend development, I blend design
@@ -966,9 +1022,7 @@
           </p>
         </div>
 
-        <h2
-          class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1"
-        >
+        <h2 class="custom-title mb-32 scroll-trigger fade-in animation-order-1">
           Education
           <span
             ><img
@@ -979,7 +1033,7 @@
         <div class="row g-5">
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-1"
             >
               <h4 class="edu-sub-title">Secondary School Certificate</h4>
               <h2 class="edu-title">2012</h2>
@@ -991,7 +1045,7 @@
           </div>
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-2"
             >
               <h4 class="edu-sub-title">
                 Diploma Engineer in Computer Science
@@ -1006,7 +1060,7 @@
           </div>
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-2"
             >
               <h4 class="edu-sub-title">
                 Bachelor of Science in Computer Science
@@ -1021,7 +1075,7 @@
           </div>
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-1"
             >
               <h4 class="edu-sub-title">Frontend Web Development</h4>
               <h2 class="edu-title">2018</h2>
@@ -1034,7 +1088,7 @@
           </div>
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-2"
             >
               <h4 class="edu-sub-title">React & Redux Certification</h4>
               <h2 class="edu-title">2020</h2>
@@ -1047,10 +1101,10 @@
           </div>
           <div class="col-sm-6 col-12">
             <div
-              class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3"
+              class="education-experience-card onhover scroll-trigger fade-in animation-order-3"
             >
               <h4 class="edu-sub-title">Advanced Next.js & TypeScript</h4>
-              <h2 class="edu-title">2023</h2>
+              <h2 class="edu-title">2021</h2>
               <p class="edu-para">
                 Completed an advanced certification in building scalable web
                 applications using Next.js and TypeScript, with a focus on
@@ -1064,46 +1118,60 @@
             <div class="col-lg-6">
               <div class="experiences-wrap-left-content">
                 <h2
-                  class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="custom-title mb-32 scroll-trigger fade-in animation-order-1"
                 >
                   Experiences
-                  <span
-                    ><img
+                  <span>
+                    <img
                       src="assets/images/custom-line/custom-line.png"
                       alt="custom-line"
-                  /></span>
+                    />
+                  </span>
                 </h2>
 
+                <!-- ITech Soft Solutions -->
                 <div
-                  class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="experience-content scroll-trigger fade-in animation-order-1"
                 >
-                  <p class="ex-subtitle">experience</p>
-                  <h2 class="ex-name">Soft Tech (2 Years)</h2>
-                  <h3 class="ex-title">UI/UX Designer</h3>
+                  <p class="ex-subtitle">Experience</p>
+                  <h2 class="ex-name">
+                    <a href="https://itech-softsolutions.com/" target="_blank">
+                      ITech Soft Solutions
+                    </a>
+                    (2 Years)
+                  </h2>
+                  <h3 class="ex-title">Frontend Developer</h3>
                   <p class="ex-para">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                    irure.
+                    Developed responsive websites and collaborated with teams to
+                    deliver user-friendly UIs using HTML, CSS, and JavaScript.
                   </p>
                 </div>
+
+                <!-- AppsInception -->
                 <div
-                  class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2"
+                  class="experience-content scroll-trigger fade-in animation-order-2"
                 >
-                  <p class="ex-subtitle">experience</p>
-                  <h2 class="ex-name">ModernTech (3 Years)</h2>
-                  <h3 class="ex-title">App Developer</h3>
+                  <p class="ex-subtitle">Experience</p>
+                  <h2 class="ex-name">
+                    <a href="https://www.appsinception.com/" target="_blank">
+                      AppsInception
+                    </a>
+                    (4 Years)
+                  </h2>
+                  <h3 class="ex-title">Sr. Frontend Developer</h3>
                   <p class="ex-para">
-                    In this portfolio, you’ll find a curated selection of
-                    projects that highlight my skills in [Main Areas, e.g.,
-                    responsive web design.
+                    Led frontend development using React and Next.Js, built scalable
+                    interfaces, and improved performance across major web
+                    projects.
                   </p>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-6">
               <div class="experiences-wrap-right-content">
                 <img
-                  class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                  class="scroll-trigger zoom-in animation-order-1"
                   src="assets/images/experiences/expert-img.jpg"
                   alt="expert-img"
                 />
@@ -1113,23 +1181,26 @@
         </div>
       </div>
     </section>
-    <!-- Tpm Education Experience Area End -->
+    <!-- Education Experience Area End -->
 
-    <section class="latest-portfolio-area custom-column-grid tmp-section-gap">
+    <section
+      class="latest-portfolio-area custom-column-grid section-gap"
+      id="protfolio"
+    >
       <div class="container">
         <div class="section-head mb--60">
           <div
-            class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+            class="section-sub-title center-title scroll-trigger fade-in animation-order-1"
           >
             <span class="subtitle">Latest Portfolio</span>
           </div>
           <h2
-            class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"
+            class="title split-collab scroll-trigger fade-in animation-order-2"
           >
             Transforming Ideas into Exceptional
           </h2>
           <p
-            class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"
+            class="description section-sm scroll-trigger fade-in animation-order-3"
           >
             Business consulting consultants provide expert advice and guida
             businesses to help them improve their performance, efficiency, and
@@ -1222,12 +1293,12 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-1"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                          class="scroll-trigger zoom-in animation-order-1"
                           href="project-details.html"
                         >
                           <img
@@ -1256,7 +1327,7 @@
                       </div>
 
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1271,12 +1342,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-2"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                          class="scroll-trigger zoom-in animation-order-1"
                           href="project-details.html"
                         >
                           <img
@@ -1307,7 +1378,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1322,12 +1393,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-3"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                          class="scroll-trigger zoom-in animation-order-1"
                           href="project-details.html"
                         >
                           <img
@@ -1358,7 +1429,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1373,12 +1444,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-4"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-4"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                          class="scroll-trigger zoom-in animation-order-1"
                           href="project-details.html"
                         >
                           <img
@@ -1406,7 +1477,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1431,12 +1502,12 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-1 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1464,7 +1535,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1479,12 +1550,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-2 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1515,7 +1586,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1530,12 +1601,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-3 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1566,7 +1637,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1581,12 +1652,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-4 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1614,7 +1685,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1639,12 +1710,12 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-1 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1672,7 +1743,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1687,12 +1758,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-2 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1723,7 +1794,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1738,12 +1809,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-3 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1774,7 +1845,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1789,12 +1860,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-4 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1822,7 +1893,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1847,12 +1918,12 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-1 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1880,7 +1951,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1895,12 +1966,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-2 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1931,7 +2002,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1946,12 +2017,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-3 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -1982,7 +2053,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -1997,12 +2068,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-4 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -2030,7 +2101,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -2055,12 +2126,12 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-1 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -2088,7 +2159,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -2103,12 +2174,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-2 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -2139,7 +2210,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -2154,12 +2225,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-3 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -2191,7 +2262,7 @@
                       </div>
 
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -2206,12 +2277,12 @@
                 </div>
                 <div class="col-lg-6">
                   <div
-                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-scroll-trigger--offscreen"
+                    class="latest-portfolio-card-style-two image-box-hover scroll-trigger fade-in animation-order-4 scroll-trigger--offscreen"
                   >
                     <div class="portfoli-card-img">
                       <div class="img-box v2">
                         <a
-                          class="tmp-scroll-trigger tmp-zoom-in animation-order-1 tmp-scroll-trigger--offscreen"
+                          class="scroll-trigger zoom-in animation-order-1 scroll-trigger--offscreen"
                           href="project-details.html"
                         >
                           <img
@@ -2239,7 +2310,7 @@
                         </div>
                       </div>
                       <a
-                        class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                        class="btn hover-icon-reverse radius-round btn-border btn-md"
                         href="project-details.html"
                       >
                         <span class="icon-reverse-wrapper">
@@ -2259,17 +2330,17 @@
       </div>
     </section>
 
-    <!-- Tpm My Skill Area Start -->
-    <section class="my-skill tmp-section-gapTop">
+    <!-- My Skill Area Start -->
+    <section class="my-skill section-gapTop" id="skills">
       <div class="container">
         <div class="section-head text-align-left mb--50">
           <div
-            class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+            class="section-sub-title scroll-trigger fade-in animation-order-1"
           >
             <span class="subtitle">My Skill</span>
           </div>
           <h2
-            class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"
+            class="title split-collab scroll-trigger fade-in animation-order-2"
           >
             Building Interfaces that Inspire <br />
             and Perform
@@ -2279,7 +2350,7 @@
         <div class="services-widget v1">
           <!-- React -->
           <div
-            class="service-item current tmp-scroll-trigger tmp-fade-in animation-order-1"
+            class="service-item current scroll-trigger fade-in animation-order-1"
           >
             <div class="my-skill-card">
               <div class="card-icon">
@@ -2307,16 +2378,14 @@
           </div>
 
           <!-- Next.js -->
-          <div
-            class="service-item tmp-scroll-trigger tmp-fade-in animation-order-2"
-          >
+          <div class="service-item scroll-trigger fade-in animation-order-2">
             <div class="my-skill-card">
               <div class="card-icon">
                 <i class="fa-solid fa-code"> </i>
               </div>
               <div class="card-title">
                 <h3 class="main-title">Next.js Development</h3>
-                <p class="sub-title">20+ Projects</p>
+                <p class="sub-title">30+ Projects</p>
               </div>
               <p class="card-para">
                 I create fast, SEO-friendly websites using Next.js, focusing on
@@ -2336,16 +2405,14 @@
           </div>
 
           <!-- Tailwind -->
-          <div
-            class="service-item tmp-scroll-trigger tmp-fade-in animation-order-3"
-          >
+          <div class="service-item scroll-trigger fade-in animation-order-3">
             <div class="my-skill-card">
               <div class="card-icon">
                 <i class="fa-solid fa-paintbrush"></i>
               </div>
               <div class="card-title">
                 <h3 class="main-title">Tailwind CSS UI Design</h3>
-                <p class="sub-title">30+ Projects</p>
+                <p class="sub-title">20+ Projects</p>
               </div>
               <p class="card-para">
                 I craft pixel-perfect responsive designs with Tailwind CSS,
@@ -2365,9 +2432,7 @@
           </div>
 
           <!-- JavaScript -->
-          <div
-            class="service-item tmp-scroll-trigger tmp-fade-in animation-order-4"
-          >
+          <div class="service-item scroll-trigger fade-in animation-order-4">
             <div class="my-skill-card">
               <div class="card-icon">
                 <i class="fa-brands fa-js"></i>
@@ -2394,16 +2459,14 @@
           </div>
 
           <!-- HTML, CSS & jQuery -->
-          <div
-            class="service-item tmp-scroll-trigger tmp-fade-in animation-order-5"
-          >
+          <div class="service-item scroll-trigger fade-in animation-order-5">
             <div class="my-skill-card">
               <div class="card-icon">
                 <i class="fa-brands fa-html5"></i>
               </div>
               <div class="card-title">
                 <h3 class="main-title">HTML, CSS & jQuery</h3>
-                <p class="sub-title">25+ Projects</p>
+                <p class="sub-title">50+ Projects</p>
               </div>
               <p class="card-para">
                 I build clean, accessible layouts using HTML5, CSS3, and jQuery,
@@ -2427,10 +2490,10 @@
       </div>
     </section>
 
-    <!-- Tpm My Skill Area End -->
+    <!-- My Skill Area End -->
 
-    <!-- Tpm Testimonial Area Start -->
-    <section class="testimonial tmp-section-gapTop">
+    <!-- Testimonial Area Start -->
+    <section class="testimonial section-gapTop">
       <div class="testimonial-wrapper">
         <div class="container">
           <div class="swiper testimonial-swiper">
@@ -2454,7 +2517,7 @@
                   </div>
                   <div class="testimonial-card-img">
                     <img
-                      class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                      class="scroll-trigger zoom-in animation-order-1"
                       src="assets/images/testimonial/bg-image-1png.png"
                       alt="bg-image"
                     />
@@ -2480,7 +2543,7 @@
                   </div>
                   <div class="testimonial-card-img">
                     <img
-                      class="tmp-scroll-trigger tmp-zoom-in animation-order-2"
+                      class="scroll-trigger zoom-in animation-order-2"
                       src="assets/images/testimonial/bg-image-2.png"
                       alt="bg-image"
                     />
@@ -2506,7 +2569,7 @@
                   </div>
                   <div class="testimonial-card-img">
                     <img
-                      class="tmp-scroll-trigger tmp-zoom-in animation-order-3"
+                      class="scroll-trigger zoom-in animation-order-3"
                       src="assets/images/testimonial/bg-image-1png.png"
                       alt="bg-image"
                     />
@@ -2527,28 +2590,26 @@
         </div>
       </div>
     </section>
-    <!-- Tpm Testimonial Area End -->
+    <!-- Testimonial Area End -->
 
-    <!-- Tpm Get In touch start -->
-    <section class="get-in-touch-area tmp-section-gapTop">
+    <!-- Get In touch start -->
+    <section class="get-in-touch-area section-gapTop" id="contact">
       <div class="container">
         <div class="get-in-touch-wrapper">
           <div class="row g-5 align-items-center">
             <div class="col-lg-5">
               <div class="section-head text-align-left">
                 <div
-                  class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1"
+                  class="section-sub-title scroll-trigger fade-in animation-order-1"
                 >
                   <span class="subtitle">GET IN TOUCH</span>
                 </div>
                 <h2
-                  class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"
+                  class="title split-collab scroll-trigger fade-in animation-order-2"
                 >
                   Elevate your brand with Me
                 </h2>
-                <p
-                  class="description tmp-scroll-trigger tmp-fade-in animation-order-3"
-                >
+                <p class="description scroll-trigger fade-in animation-order-3">
                   ished fact that a reader will be distrol acted bioiiy desig
                   ished fact that a reader will acted ished fact that a reader
                   will be distrol acted
@@ -2560,10 +2621,10 @@
                 <div class="contact-form">
                   <div id="form-messages" class="error"></div>
                   <form
-                    class="tmp-dynamic-form"
+                    class="dynamic-form"
                     id="contact-form"
                     method="POST"
-                    action="https://inversweb.com/product/html/reeni/mailer.php"
+                    action="contact-handler.php"
                   >
                     <div class="contact-form-wrapper row">
                       <div class="col-lg-6">
@@ -2587,6 +2648,7 @@
                             placeholder="Phone Number"
                             type="number"
                             required
+                            name="phone"
                           />
                         </div>
                       </div>
@@ -2629,9 +2691,9 @@
                       </div>
 
                       <div class="col-lg-12">
-                        <div class="tmp-button-here">
+                        <div class="button-here">
                           <button
-                            class="tmp-btn hover-icon-reverse radius-round w-100"
+                            class="btn hover-icon-reverse radius-round w-100"
                             name="submit"
                             type="submit"
                             id="submit"
@@ -2655,13 +2717,13 @@
         </div>
       </div>
     </section>
-    <!-- Tpm Get In touch End -->
+    <!-- Get In touch End -->
 
     <!-- Start Footer Area  -->
 
     <div class="copyright-area-one">
       <div class="container">
-        <p class="copy-right-para tmp-link-animation">
+        <p class="copy-right-para link-animation">
           ©<a href="#" target="_blank"> Kajihasib </a>
           <script>
             document.write(new Date().getFullYear());
@@ -2745,6 +2807,27 @@
         loop: true,
         autoplay: true,
         path: "assets/images/animation.json",
+      });
+
+      const form = document.getElementById("contact-form");
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const response = await fetch("contact-handler.php", {
+          method: "POST",
+          body: formData,
+        });
+
+        const result = await response.text();
+        const msgBox = document.getElementById("form-messages");
+        if (result === "success") {
+          msgBox.innerHTML =
+            "<p style='color:green;'>Your message was sent successfully!</p>";
+          form.reset();
+        } else {
+          msgBox.innerHTML =
+            "<p style='color:red;'>Failed to send message. Please try again.</p>";
+        }
       });
     </script>
   </body>

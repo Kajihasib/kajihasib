@@ -140,7 +140,7 @@
     menuCurrentLink: function () {
       var currentPage = location.pathname.split("/"),
         current = currentPage[currentPage.length - 1];
-      $(".tmp-mainmenu li a").each(function () {
+      $(".mainmenu li a").each(function () {
         var $this = $(this);
         if ($this.attr("href") === current) {
           $this.addClass("active");
@@ -161,21 +161,19 @@
 
     popupMobileMenu: function (e) {
       $(".humberger_menu_active").on("click", function (e) {
-        $(".tmp-popup-mobile-menu").addClass("active");
+        $(".popup-mobile-menu").addClass("active");
       });
 
       $(".close-menu").on("click", function (e) {
-        $(".tmp-popup-mobile-menu").removeClass("active");
-        $(".tmp-popup-mobile-menu .tmp-mainmenu .has-dropdown > a")
+        $(".popup-mobile-menu").removeClass("active");
+        $(".popup-mobile-menu .mainmenu .has-dropdown > a")
           .siblings(".submenu")
           .removeClass("active")
           .slideUp("400");
-        $(".tmp-popup-mobile-menu .tmp-mainmenu .has-dropdown > a").removeClass(
-          "open"
-        );
+        $(".popup-mobile-menu .mainmenu .has-dropdown > a").removeClass("open");
       });
 
-      $(".tmp-popup-mobile-menu .tmp-mainmenu .has-dropdown > a").on(
+      $(".popup-mobile-menu .mainmenu .has-dropdown > a").on(
         "click",
         function (e) {
           e.preventDefault();
@@ -184,22 +182,23 @@
         }
       );
 
-      $(
-        ".tmp-popup-mobile-menu, .tmp-popup-mobile-menu .tmp-mainmenu.onepagenav li a"
-      ).on("click", function (e) {
-        e.target === this &&
-          $(".tmp-popup-mobile-menu").removeClass("active") &&
-          $(".tmp-popup-mobile-menu .tmp-mainmenu .has-dropdown > a")
-            .siblings(".submenu")
-            .removeClass("active")
-            .slideUp("400") &&
-          $(
-            ".tmp-popup-mobile-menu .tmp-mainmenu .has-dropdown > a"
-          ).removeClass("open");
-      });
+      $(".popup-mobile-menu, .popup-mobile-menu .mainmenu.onepagenav li a").on(
+        "click",
+        function (e) {
+          e.target === this &&
+            $(".popup-mobile-menu").removeClass("active") &&
+            $(".popup-mobile-menu .mainmenu .has-dropdown > a")
+              .siblings(".submenu")
+              .removeClass("active")
+              .slideUp("400") &&
+            $(".popup-mobile-menu .mainmenu .has-dropdown > a").removeClass(
+              "open"
+            );
+        }
+      );
 
       $(".onepagenav-click a").on("click", function (e) {
-        $(".tmp-popup-mobile-menu").removeClass("active");
+        $(".popup-mobile-menu").removeClass("active");
         tmPk._html.css({
           overflow: "",
         });
@@ -244,7 +243,7 @@
           this.animates();
         },
         animates: function () {
-          var animates = $(".tmp-scroll-trigger");
+          var animates = $(".scroll-trigger");
           if (animates.length > 0) {
             animates.each(function () {
               $(this).on("animationend", function (e) {
