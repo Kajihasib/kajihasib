@@ -1240,6 +1240,7 @@ input[type="submit"] {
   text-transform: capitalize;
   margin-top: 20px;
   margin-bottom: 13px;
+  min-height: 85px;
 }
 @media only screen and (max-width: 767px) {
   .latest-portfolio-card-style-two .portfolio-card-title {
