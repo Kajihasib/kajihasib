@@ -13,6 +13,20 @@
       type="image/x-icon"
       href="assets/images/favicon.ico"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7PSH836V08"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7PSH836V08");
+    </script>
     <title>
       MD Hasibur Rahman – Frontend Developer | React & Next.js Expert
     </title>
@@ -281,7 +295,11 @@
                 <div
                   class="button-area-banner-one scroll-trigger fade-in animation-order-4"
                 >
-                  <a class="btn hover-icon-reverse radius-round" href="#">
+                  <a
+                    class="btn hover-icon-reverse radius-round"
+                    href="assets/files/md-hasibur-rahman-frontend-developer.pdf"
+                    download
+                  >
                     <span class="icon-reverse-wrapper">
                       <span class="btn-text">Download CV</span>
                     </span>
